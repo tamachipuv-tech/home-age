@@ -1,0 +1,4 @@
+    <div class="parent">
+        <a href="openhomepage.html" style="color:white">
+        <h3>・ホームページを公開しました！</h3>
+        </div>

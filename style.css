@@ -1,0 +1,200 @@
+body{
+margin:0;
+font-family:sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+/* ヘッダー */
+
+.header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* ヒーロー */
+
+.hero{
+text-align:center;
+padding:229px 20px;
+
+background:linear-gradient(135deg,#ff2a6d,#6a00ff);
+}
+
+.hero h1{
+font-size:50px;
+}
+
+/* ボタン */
+
+.mainButton{
+
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:white;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+/* カード */
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px;
+}
+
+.card{
+
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+width:1400px;
+align-items: center; /* 垂直方向の中央揃え */
+
+}
+
+.main_text{
+
+    color:white
+}
+
+/* ページ */
+
+.page{
+text-align:center;
+padding:80px;
+}
+
+/* 入会 */
+
+.loginBox{
+
+width:300px;
+margin:150px auto;
+text-align:center;
+background:#1a1a1a;
+padding:40px;
+border-radius:20px;
+
+}
+
+input{
+width:80%;
+padding:10px;
+margin:10px;
+border-radius:10px;
+border:none;
+}
+
+.child {
+  /* text-align プロパティに center を設定 */
+  text-align: center;
+}
+.child span {
+  color: red;
+}
+
+.a{
+    color:white
+}
+
+.movie{
+    display: flex;
+    justify-content: space-around;
+    margin:150px;
+}
+
+.coner{
+
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:15px;
+backdrop-filter:blur(10px);
+width:1400px;
+align-items: center; /* 垂直方向の中央揃え */
+text-size-adjust: 60px;
+}
+
+.main_movie{
+    display: flex;
+    justify-content: space-around;
+    margin:150px;
+}
+
+.news-section{
+max-width:900px;
+margin:40px auto;
+}
+
+.news-title{
+font-size:28px;
+margin-bottom:20px;
+border-left:5px solid #4da3ff;
+padding-left:10px;
+}
+
+.news-container{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.news-card{
+background:white;
+border-radius:10px;
+padding:16px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+transition:0.2s;
+}
+
+.news-card:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+
+.news-date{
+font-size:12px;
+color:#888;
+margin-bottom:5px;
+}
+
+.news-text{
+font-size:16px;
+font-weight:500;
+}
+
+.news-more{
+display:none;
+margin:25px auto;
+padding:10px 22px;
+border:none;
+background:#4da3ff;
+color:white;
+font-size:15px;
+border-radius:30px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.news-more:hover{
+background:#2d8cff;
+}
+
+.a{
+    color:white;
+}
